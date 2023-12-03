@@ -1,0 +1,244 @@
+/************************************ Heading **********************************/
+
+
+#logo{
+    background: #f4f4f4;
+    border-radius: 4px;
+    height: 40px;
+    width: 40px;
+}
+
+#colortheme{
+    color: #303030;
+}
+
+#rectangle{
+    background:  #4e4e4e;
+    width: 10px;
+    height: 26px;
+    border-radius: 2px;
+}
+
+#rond{
+    background: #49deff;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    width: 18px;
+    height: 18px;
+}
+
+/*  Section margin  */
+
+#repere{
+    /*border: 1px solid black;*/
+    margin-top: 100px;
+}
+
+#colort{
+    color: #303030;
+}
+
+#colorb{
+    background: #303030;
+    color: white;
+}
+
+#colorb1{
+    color: #303030;
+    border: none;
+}
+/*
+#banner-content{
+    border: 1px solid yellow;
+}*/
+
+#stars{
+   /* border: 1px solid blue;*/
+    margin-top: 100px;
+    margin-left: 15px;
+    width: 500px;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+}
+
+#bg-specific{
+    background: url(../image/Image.png) no-repeat top/cover;
+}
+
+#bg-transparent{
+    background: transparent;
+}
+
+/********************************* Features ****************************************/
+
+#colors{
+    color: #4e4e4e;
+}
+
+#features{
+    margin-top: 100px;
+}
+
+#subcontent{
+    /*border: 1px solid black;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#second{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+#first, #sec1,#sec2{
+    box-shadow: 2px 2px 2px 2px #3030302b;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+#first,#sec2{
+    background: #f4f4f4;
+}
+
+
+/*************************************** Core features ******************************************/
+#display-core{
+    /*border: 1px solid black;*/
+    display: flex;
+    align-items: stretch;
+    margin-top: 300px;
+}
+
+.update{
+    margin-bottom: 100px;
+}
+
+.one{
+    display: flex;
+    align-items: center;
+   /* border: 1px solid black;*/
+    gap: 15px;
+}
+
+.two{
+    text-align: center;
+}
+
+#img-fond{
+    position: absolute;
+    z-index: -1;
+    width: 1177px;
+    height: 769px;
+    top: 1300px;
+    left: -10px;
+    margin-left: -150px;
+    /*border: 1px solid black;*/
+    background: url(../image/p1.png) no-repeat;
+    rotate: -10deg;
+    /*angle: 90 deg;*/
+}
+
+.marginBottom{
+    margin-bottom: 50px;
+}
+
+/**************************** why choose us *****************************************/
+#display-choose{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#points-choose{
+    display: flex;
+    justify-content: space-between;
+}
+
+#img-fond1{
+    width: 1000px;
+    height: 760px;
+    position: absolute;
+    background: url(../image/Background1.png) no-repeat;
+    top: 2090px;
+    rotate: 20deg;
+    right: -400px;
+    z-index: -1;
+}
+
+.client-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*border: 1px solid black;*/
+}
+
+.lr1,.lr2,.lr3{
+    display: flex;
+    align-items: center;
+}
+
+.lr1,.lr3{
+    justify-content: space-around;
+   
+}
+
+.lr2{
+    justify-content: space-between;
+}
+
+
+.news-letter{
+    margin-top: 150px;
+   background: url(../image/bg-1.png);
+    padding-top: 35px;
+    padding-bottom: 200px;
+    margin-bottom: 200px;
+
+}
+
+.news-text{
+    color: white;
+}
+
+#text-color{
+    color: white;
+}
+
+.newslatter{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.entrez{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#bluecolor{
+    background: #4BE3EB;
+}
+
+/******************************* responsivite *************************************/
+@media screen and (max-width:1200px){
+    #display-core{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 200px;
+    }
+
+    #display-choose{
+        flex-direction: column;
+        align-items: center;
+    }
+  
+}
